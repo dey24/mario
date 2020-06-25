@@ -1,0 +1,65 @@
+header{
+    
+    background-image: linear-gradient(to right, red , yellow);
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+header h1{
+    color: azure;
+    border: 8px whitesmoke;
+    padding: 6px 12px;
+    display: inline-flex;
+    border-radius: 50px;
+    border-style: groove;
+}
+body{
+    margin: 0px;
+}
+.join{
+    position: relative;
+    margin-top: 148px;
+}
+.join .img{
+    max-width: 100%;
+}
+.join .welcome{
+   
+    color: #bfec1ad8;
+    padding: 30px;
+    position: absolute;
+    left: 0px;
+    top: 20%;
+    text-shadow: 1px 1px red;
+    
+}
+h2{
+    font-size: 40px;
+    opacity: 100%;
+}
+form{
+    
+    padding-left: 10px;
+    max-width: 100%;
+    margin-right: 0;
+    left: 0px;
+    top: 53%;
+   position: absolute;
+  
+}
+form input{
+    border-radius: 25px;
+    font-size: 20px;
+    margin-top: 10px;
+    vertical-align: ;
+    font-size: 30px;
+}
+.nameclass{
+    font-size: 30px;
+    color: yellow;
+    text-shadow: 1px 1px ;
+}

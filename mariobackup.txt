@@ -1,0 +1,200 @@
+mario.html
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mario Club</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+      <header>
+          <h1>Marioclub</h1>
+      </header> 
+      <section class="banner">
+          <img src="img/mario-banner.jpg" alt="Marioclub welcome banner">
+        <div class="welcome">
+          <h2>Welcome to <br><span>Marioclub</span></h2>
+        </div>      
+        </section>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="/join.html" class="joinhere">Join the Club</a></li>
+                <li><a href="/news.html">Latest news</a></li>
+                <li><a href="/games.html">New games</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <main>
+            <article>
+                <h2>It's a me, Mario</h2>
+                <p> Super Mario is a Japanese platform video game series 
+                    and media franchise created by Nintendo and featuring 
+                    their mascot, Mario. Alternatively called the Super 
+                    Mario Bros. series or simply the Mario series, 
+                    it is the central series of the greater Mario franchise.</p>  
+            </article>
+            <div class="images">
+                <img src="img/thumb01.jpg" alt="mario thumb1">
+            </div>
+            <div class="picture">
+                <img src="img/thumb02.png" alt= "mario thumb2">
+            </div>
+        </main>
+        <section class="join">
+          <h2>Join today</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Quae at corrupti quo harum similique inventore laboriosam
+            facere eveniet sint molestiae culpa quasi architecto sit 
+            itaque, id officiis. Quam, hic fugit!</p>
+            <form>
+                <input type="email" name="email" placeholder="type email and enter" required>
+            </form>
+        </section>
+
+        <footer>
+            <p class="copyright">Copyright 2019 Marioclub</p>
+        </footer>
+
+      </body>
+
+</html>
+
+
+
+
+
+
+Mariostyle.css
+
+header{
+    
+    background-color: #f63232;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+header h1{
+    color: azure;
+    border: 8px whitesmoke;
+    padding: 6px 12px;
+    display: inline-flex;
+    border-radius: 50px;
+    border-style: groove;
+}
+body{
+    margin: 0px;
+}
+.banner{
+    position: relative;
+    margin-top: 148px;
+}
+.banner img{
+    max-width: 100%;
+    }
+.images img{
+    max-width: 100%;
+}
+.banner .welcome{
+    background-color:#eef07244;
+    color: #11105fd8;
+    padding: 30px;
+    position: absolute;
+    left: 0px;
+    top: 20%;
+}
+.banner h2{
+    font-size: 60px;
+    text-shadow: 2px 2px;
+    font-family: cursive;
+}
+.banner h2 span{
+    font-size: 65px;
+}
+
+nav{
+    background-color: #f5eded;
+    padding: 25px;
+    position: sticky;
+    top: 148px;
+    
+}
+nav ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+    
+}
+nav li{
+    width: 25%;
+    display: inline-block;
+    font-size: 24px;
+}
+nav li a{
+    text-decoration: none;
+    color: #4b4b4b;
+    text-transform: unset;
+}
+nav li a.joinhere{
+    color:#f63232;
+}
+article{
+    /* background-color:wheat; */
+   
+}
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: initial;
+    font-weight: bold;
+    color: #58170b;
+    font-size: 48px;
+}
+p{
+    font-family: cursive;
+    color: #4b4b4b;
+    line-height: 1.5em;
+}
+main{
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0 50px;
+    box-sizing: border-box;
+    
+}
+.images img{
+    max-width: 100%;
+    margin: 80px 0;
+    
+    
+}
+.picture img{
+    max-width: 100%;
+}
+.join{
+    background: #F4F4F4;
+    text-align: center;
+    padding: 60px 20px;
+    color: #4b4b4b;
+}
+.join h2{
+    font-size: 40px;
+}
+.join p{
+    font-size: 18px;
+}
+form input{
+     /* margin: 20px 0; */
+     padding: 10px 20px;
+     font-size: 24px;
+     border-radius: 28px;
+     border: 4px solid wheat;
+}
+footer{
+    background:#f63232;
+}
